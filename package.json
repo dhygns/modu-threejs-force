@@ -1,0 +1,27 @@
+{
+  "name": "modu-threejs-vector",
+  "version": "1.0.0",
+  "description": "Nature Of CODE에서 소개된 Force의 특성을 구현해보았습니다.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "n3d-threejs": "^76.0.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "build": "webpack --watch ./src/index.js ./build/index.bundle.js",
+    "start": "start node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhygns/modu-threejs-vector.git"
+  },
+  "author": "donghyeon kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhygns/modu-threejs-vector/issues"
+  },
+  "homepage": "https://github.com/dhygns/modu-threejs-vector#readme"
+}
